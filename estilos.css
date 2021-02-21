@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+body{
+    margin: 0;
+    background-color: #f3ebdd;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #2a2922;
+}
+h1,h2{
+    margin: 0;
+}
+.main_container{
+    max-width: 924px;
+    margin: 0 auto;
+    background-color: #967f72;
+}
+.head_container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+    background-color: #506d2f;
+    font-weight: bolder;
+    border-radius: 0 0 5px 5px;
+}
+.main_box{
+    padding: 1em;
+}
+.beers_main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-row-gap: 1em;
+    text-align: center;
+}
+.beers_container{
+    background-color: #f3ebdd;
+    border-radius: 2px;
+}
+.beers_container_img{
+    margin: 10px;
+    animation-duration: 2s;
+    animation-name: fade;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.2), 1px 3px 8px rgba(39,44,49,.2);
+}
+.beers_container_img img{
+    height: 300px;
+}
+.beers_title{
+    font-weight: 400;
+    font-size: 1em;
+    padding: 10px;
+}
+.beer_container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f3ebdd;
+    border-radius: 2px;
+}
+.beer_container_imagen{
+    margin: 15px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.1), 1px 3px 8px rgba(39,44,49,.1);
+}
+.beer_container_imagen img{
+    height: 400px;
+}
+.beer_information{
+    color: #2a2922;
+    font-size: .9em;
+}
+.about_container{
+    height: 70vh;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 1.2em;
+}
+.about_container p{
+    margin: 0;
+}
+.Error404{
+    height: 70vh;
+}
+.footer{
+    max-width: 924px;
+    margin: 0 auto;
+    background-color: #2a2922;
+    height: 60px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+footer p{
+    margin: 0;
+}
+@media screen and (max-width:768px){
+    .head_container{
+        height: auto;
+    }
+    .beers_container_img img{
+        height: 100px;
+    }
+}
+@media screen and (max-width:425px){
+    .beers_main_container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .beer_container_imagen img{
+        height: 300px;
+    }
+    .beer_information{
+        font-size: .6em;
+    }
+}
