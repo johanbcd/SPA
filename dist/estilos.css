@@ -83,6 +83,9 @@ h1,h2{
 .about_container p{
     margin: 0;
 }
+.Error404{
+    height: 70vh;
+}
 .footer{
     max-width: 924px;
     margin: 0 auto;
