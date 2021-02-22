@@ -27,7 +27,8 @@ h1,h2{
     border-radius: 0 0 5px 5px;
 }
 .main_box{
-    padding: 1em;
+    /*padding: 1em;*/
+    padding: 3em 1em 1em 1em
 }
 .beers_main_container{
     display: grid;
@@ -55,7 +56,6 @@ h1,h2{
     padding: 10px;
 }
 .beer_container{
-    display: flex;
     width: 80%;
     margin: 0 auto;
     padding: 15px;
@@ -63,6 +63,7 @@ h1,h2{
     border-radius: 2px;
 }
 .beer_container_imagen{
+    text-align: center;
     margin: 15px;
     box-shadow: 8px 14px 38px rgba(39,44,49,.1), 1px 3px 8px rgba(39,44,49,.1);
 }
@@ -74,17 +75,17 @@ h1,h2{
     font-size: .9em;
 }
 .about_container{
-    height: 70vh;
+    width: 70%;
+    height: 100vh;
     text-align: center;
     margin: 0 auto;
-    width: 70%;
     font-size: 1.2em;
 }
 .about_container p{
     margin: 0;
 }
 .Error404{
-    height: 70vh;
+    height: 100vh;
 }
 .footer{
     max-width: 924px;
